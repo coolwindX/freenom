@@ -23,6 +23,12 @@ return [
         '34520013' => '获取域名状态页面出错，错误信息：%s',
         '34520014' => '你的账户 %s 名下没有发现域名，可能不存在域名。（%s）',
         '34520015' => '请求被人机验证拦截，将在 %d 秒后重试，最多重试 %d 次。[%d/%d]',
+        '34520016' => '请求失败，原因为 %s，将在 %d 秒后重试，最多重试 %d 次。[%d/%d]',
+        '34520017' => '未配置 AWS_WAF_SOLVER_URL 环境变量',
+        '34520018' => '未能获取到 AWS WAF Token',
+        '34520019' => '<light_green>将自动使用新的 AWS WAF Token</light_green>',
+        '34520020' => '未配置 OPEN_SOURCE_WAF_SOLVER_URL 环境变量',
+        '34520021' => '等待开源接口返回 token 超过 %d 秒，依然未取得有效 token，本次无法继续执行',
     ],
     'messages' => [
         '100001' => '未能取得名为 WHMCSZH5eHTGhfvzP 的 cookie 值，故本次登录无效，请检查你的账户或密码是否正确。',
@@ -157,5 +163,7 @@ return [
         '100136' => 'Pushplus',
         '100137' => 'Pushplus 消息发送失败：<red>%s</red>',
         '100138' => '<light_green>%s 登录成功</light_green>',
+        '100139' => '<light_green>已获取 aws waf token %s</light_green>',
+        '100140' => '<light_green>本次无需 aws waf token</light_green>',
     ],
 ];
